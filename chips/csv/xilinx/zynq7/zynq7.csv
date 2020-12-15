@@ -1,0 +1,70 @@
+Device Name,Z-7007S,Z-7012S,Z-7014S,Z-7010,Z-7015,Z-7020,Z-7030,Z-7035,Z-7045,Z-7100
+Part Number,XC7Z007S,XC7Z012S,XC7Z014S,XC7Z010,XC7Z015,XC7Z020,XC7Z030,XC7Z035,XC7Z045,XC7Z100
+Processor Core,"Single-Core
+ARM® Cortex™-A9 MPCore™
+Up to 766MHz","Single-Core
+ARM® Cortex™-A9 MPCore™
+Up to 766MHz","Single-Core
+ARM® Cortex™-A9 MPCore™
+Up to 766MHz","Dual-Core ARM
+Cortex-A9 MPCore
+Up to 866MHz","Dual-Core ARM
+Cortex-A9 MPCore
+Up to 866MHz","Dual-Core ARM
+Cortex-A9 MPCore
+Up to 866MHz","Dual-Core ARM
+Cortex-A9 MPCore
+Up to 1GHz","Dual-Core ARM
+Cortex-A9 MPCore
+Up to 1GHz","Dual-Core ARM
+Cortex-A9 MPCore
+Up to 1GHz","Dual-Core ARM
+Cortex-A9 MPCore
+Up to 1GHz"
+Processor Extensions,Processor Extensions NEON™ SIMD Engine and Single/Double Precision Floating Point Unit per processor,Processor Extensions NEON™ SIMD Engine and Single/Double Precision Floating Point Unit per processor,Processor Extensions NEON™ SIMD Engine and Single/Double Precision Floating Point Unit per processor,Processor Extensions NEON™ SIMD Engine and Single/Double Precision Floating Point Unit per processor,Processor Extensions NEON™ SIMD Engine and Single/Double Precision Floating Point Unit per processor,Processor Extensions NEON™ SIMD Engine and Single/Double Precision Floating Point Unit per processor,Processor Extensions NEON™ SIMD Engine and Single/Double Precision Floating Point Unit per processor,Processor Extensions NEON™ SIMD Engine and Single/Double Precision Floating Point Unit per processor,Processor Extensions NEON™ SIMD Engine and Single/Double Precision Floating Point Unit per processor,Processor Extensions NEON™ SIMD Engine and Single/Double Precision Floating Point Unit per processor
+L1 Cache,"32KB I$, 32KB D$xprocessor","33KB I$, 32KB D$xprocessor","34KB I$, 32KB D$xprocessor","35KB I$, 32KB D$xprocessor","36KB I$, 32KB D$xprocessor","37KB I$, 32KB D$xprocessor","38KB I$, 32KB D$xprocessor","39KB I$, 32KB D$xprocessor","40KB I$, 32KB D$xprocessor","41KB I$, 32KB D$xprocessor"
+L2 Cache,512KB,512KB,512KB,512KB,512KB,512KB,512KB,512KB,512KB,512KB
+On-Chip Memory,256KB,256KB,256KB,256KB,256KB,256KB,256KB,256KB,256KB,256KB
+External Memory Support,"DDR3, DDR3L, DDR2, LPDDR2","DDR3, DDR3L, DDR2, LPDDR3","DDR3, DDR3L, DDR2, LPDDR4","DDR3, DDR3L, DDR2, LPDDR5","DDR3, DDR3L, DDR2, LPDDR6","DDR3, DDR3L, DDR2, LPDDR7","DDR3, DDR3L, DDR2, LPDDR8","DDR3, DDR3L, DDR2, LPDDR9","DDR3, DDR3L, DDR2, LPDDR10","DDR3, DDR3L, DDR2, LPDDR11"
+External Static Memory Support,"2x Quad-SPI, NAND, NOR","3x Quad-SPI, NAND, NOR","4x Quad-SPI, NAND, NOR","5x Quad-SPI, NAND, NOR","6x Quad-SPI, NAND, NOR","7x Quad-SPI, NAND, NOR","8x Quad-SPI, NAND, NOR","9x Quad-SPI, NAND, NOR","10x Quad-SPI, NAND, NOR","11x Quad-SPI, NAND, NOR"
+DMA Channels,8 (4 dedicated to PL),9 (4 dedicated to PL),10 (4 dedicated to PL),11 (4 dedicated to PL),12 (4 dedicated to PL),13 (4 dedicated to PL),14 (4 dedicated to PL),15 (4 dedicated to PL),16 (4 dedicated to PL),17 (4 dedicated to PL)
+Peripherals ,"2x UART, 2x CAN 2.0B, 2x I2C, 2x SPI, 4x 32b GPIO","3x UART, 2x CAN 2.0B, 2x I2C, 2x SPI, 4x 32b GPIO","4x UART, 2x CAN 2.0B, 2x I2C, 2x SPI, 4x 32b GPIO","5x UART, 2x CAN 2.0B, 2x I2C, 2x SPI, 4x 32b GPIO","6x UART, 2x CAN 2.0B, 2x I2C, 2x SPI, 4x 32b GPIO","7x UART, 2x CAN 2.0B, 2x I2C, 2x SPI, 4x 32b GPIO","8x UART, 2x CAN 2.0B, 2x I2C, 2x SPI, 4x 32b GPIO","9x UART, 2x CAN 2.0B, 2x I2C, 2x SPI, 4x 32b GPIO","10x UART, 2x CAN 2.0B, 2x I2C, 2x SPI, 4x 32b GPIO","11x UART, 2x CAN 2.0B, 2x I2C, 2x SPI, 4x 32b GPIO"
+Peripherals w/ built-in DMA,"2x USB 2.0 (OTG), 2x Tri-mode Gigabit Ethernet, 2x SD/SDIO",,,,,,,,,
+Security,"RSA Authentication of First Stage Boot Loader,
+AES and SHA 256b Decryption and Authentication for Secure Boot","RSA Authentication of First Stage Boot Loader,
+AES and SHA 256b Decryption and Authentication for Secure Boot","RSA Authentication of First Stage Boot Loader,
+AES and SHA 256b Decryption and Authentication for Secure Boot","RSA Authentication of First Stage Boot Loader,
+AES and SHA 256b Decryption and Authentication for Secure Boot","RSA Authentication of First Stage Boot Loader,
+AES and SHA 256b Decryption and Authentication for Secure Boot","RSA Authentication of First Stage Boot Loader,
+AES and SHA 256b Decryption and Authentication for Secure Boot","RSA Authentication of First Stage Boot Loader,
+AES and SHA 256b Decryption and Authentication for Secure Boot","RSA Authentication of First Stage Boot Loader,
+AES and SHA 256b Decryption and Authentication for Secure Boot","RSA Authentication of First Stage Boot Loader,
+AES and SHA 256b Decryption and Authentication for Secure Boot","RSA Authentication of First Stage Boot Loader,
+AES and SHA 256b Decryption and Authentication for Secure Boot"
+"Processing System to
+Programmable Logic Interface Ports
+(Primary Interfaces & Interrupts Only)","2x AXI 32b Master, 2x AXI 32b Slave","2x AXI 32b Master, 2x AXI 32b Slave","2x AXI 32b Master, 2x AXI 32b Slave","2x AXI 32b Master, 2x AXI 32b Slave","2x AXI 32b Master, 2x AXI 32b Slave","2x AXI 32b Master, 2x AXI 32b Slave","2x AXI 32b Master, 2x AXI 32b Slave","2x AXI 32b Master, 2x AXI 32b Slave","2x AXI 32b Master, 2x AXI 32b Slave","2x AXI 32b Master, 2x AXI 32b Slave"
+7 Series PL Equivalent,Artix-7,Artix-7,Artix-7,Artix-7,Artix-7,Artix-7,Kintex-7,Kintex-7,Kintex-7,Kintex-7
+Logic Cells,23K,55K,65K,28K,74K,85K,125K,275K,350K,444K
+Look-Up Tables (LUTs),14400,34400,40600,17600,46200,53200,78600,171900,218600,277400
+Flip-Flops,28800,68800,81200,35200,92400,106400,157200,343800,437200,554800
+,,,,,,,,,,
+,,,,,,,,,,
+Maximum Distributed RAM (Kb),,,,,,,,,,
+Block RAM/FIFO w/ ECC (36 Kb each),,,,,,,,,,
+Total Block RAM (Kb),,,,,,,,,,
+ CMTs (1 MMCM + 1 PLL),,,,,,,,,,
+Maximum Single-Ended I/O,,,,,,,,,,
+Maximum Differential I/O Pairs,,,,,,,,,,
+DSP Slices,,,,,,,,,,
+PCIe Gen2,,,,,,,,,,
+PCIe Gen3,,,,,,,,,,
+ Analog Mixed Signal (AMS) / XADC,,,,,,,,,,
+Configuration AES / HMAC Blocks,,,,,,,,,,
+GTP Transceivers (6.6 Gb/s Max Rate),,,,,,,,,,
+GTX Transceivers (12.5 Gb/s Max Rate),,,,,,,,,,
+GTH Transceivers (13.1 Gb/s Max Rate),,,,,,,,,,
+GTZ Transceivers ( 28.05 Gb/s Max Rate),,,,,,,,,,
+Commercial Temp (C),,,,,,,,,,
+Extended Temp (E),,,,,,,,,,
+Industrial Temp (I),,,,,,,,,,
