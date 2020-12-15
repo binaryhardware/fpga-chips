@@ -1,0 +1,21 @@
+Part Number,XC7K70T,XC7K160T,XC7K325T,XC7K355T,XC7K410T,XC7K420T,XC7K480T
+Slices,10250,25350,50950,55650,63550,65150,74650
+Logic Cells,65600,162240,326080,356160,406720,416960,477760
+CLB Flip-Flops,82000,202800,407600,445200,508400,521200,597200
+Maximum Distributed RAM (Kb),838,2188,4000,5088,5663,5938,6788
+Block RAM/FIFO w/ ECC (36 Kb each),135,325,445,715,795,835,955
+Total Block RAM (Kb),4860,11700,16020,25740,28620,30060,34380
+ CMTs (1 MMCM + 1 PLL),6,8,10,6,10,8,8
+Maximum Single-Ended I/O,300,400,500,300,500,400,400
+Maximum Differential I/O Pairs,144,192,240,144,240,192,192
+DSP Slices,240,600,840,1440,1540,1680,1920
+PCIe Gen2,1,1,1,1,1,1,1
+PCIe Gen3,0,0,0,0,0,0,0
+ Analog Mixed Signal (AMS) / XADC,1,1,1,1,1,1,1
+Configuration AES / HMAC Blocks,1,1,1,1,1,1,1
+GTX Transceivers (12.5 Gb/s Max Rate),8,8,16,24,16,32,32
+GTH Transceivers (13.1 Gb/s Max Rate),N/A,N/A,N/A,N/A,N/A,N/A,N/A
+GTZ Transceivers ( 28.05 Gb/s Max Rate,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Commercial Temp (C),"-1, -2","-1, -2","-1, -2","-1, -2","-1, -2","-1, -2","-1, -2"
+Extended Temp (E),"-2L,-3","-2L,-3","-2L,-3","-2L,-3","-2L,-3","-2L,-3","-2L,-3"
+Industrial Temp (I),"-1, -2","-1, -2, -2L","-1, -2, -2L","-1, -2, -2L","-1, -2, -2L","-1, -2, -2L","-1, -2, -2L"
