@@ -1,0 +1,22 @@
+Part Number,XC7A12T,XC7A15T,XC7A25T,XC7A35T,XC7A50T,XC7A75T,XC7A100T,XC7A200T
+Slices,12800,16640,23360,33280,52160,75520,101440,215360
+Logic Cells,2000,2600,3650,5200,8150,11800,15850,33650
+CLB Flip-Flops,16000,20800,29200,41600,65200,94400,126800,269200
+Maximum Distributed RAM (Kb),171,200,313,400,600,892,1188,2888
+Block RAM/FIFO w/ ECC (36 Kb each),20,25,45,50,75,105,135,365
+Total Block RAM (Kb),720,900,1620,1800,2700,3780,4860,13140
+ CMTs (1 MMCM + 1 PLL),3,5,3,5,5,6,6,10
+Maximum Single-Ended I/O,150,250,150,250,250,300,300,500
+Maximum Differential I/O Pairs,72,120,72,120,120,144,144,240
+DSP Slices,40,45,80,90,120,180,240,740
+PCIe Gen2,1,1,1,1,1,1,1,1
+PCIe Gen3,0,0,0,0,0,0,0,0
+ Analog Mixed Signal (AMS) / XADC,1,1,1,1,1,1,1,1
+Configuration AES / HMAC Blocks,1,1,1,1,1,1,1,1
+GTP Transceivers (6.6 Gb/s Max Rate),2,4,4,4,4,8,8,16
+GTX Transceivers (12.5 Gb/s Max Rate),N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+GTH Transceivers (13.1 Gb/s Max Rate),N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+GTZ Transceivers ( 28.05 Gb/s Max Rate),N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Commercial Temp (C),"-1, -2","-1, -2","-1, -2","-1, -2","-1, -2","-1, -2","-1, -2","-1, -2"
+Extended Temp (E),"-2L, -3","-2L, -3","-2L, -3","-2L, -3","-2L, -3","-2L, -3","-2L, -3","-2L, -3"
+Industrial Temp (I),"-1,-2, -1L","-1,-2, -1L","-1,-2, -1L","-1,-2, -1L","-1,-2, -1L","-1,-2, -1L","-1,-2, -1L","-1,-2, -1L"
