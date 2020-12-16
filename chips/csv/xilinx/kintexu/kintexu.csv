@@ -1,0 +1,29 @@
+Device Name,KU025,KU035,KU040,KU060,KU085,KU095,KU115
+Part Number,,,,,,,
+Slices,,,,,,,
+Logic Cells (k),318,444,530,726,1088,1176,1451
+CLB Flip-Flops,290880,406256,484800,663360,995040,1075200,1326720
+CLB LUTs,145440,203128,242400,331680,497520,537600,663360
+Maximum Distributed RAM (Kb),4230,5908,7050,9180,13770,4800,18360
+Block RAM/FIFO w/ ECC (36 Kb each),360,540,600,1080,1620,1680,2160
+Block RAM/FIFO (18Kb each),720,1080,1200,2160,3240,3360,4320
+Total Block RAM (Mb),12.7,19,21.1,38,56.9,59.1,75.9
+ CMTs (1 MMCM + 2 PLL),6,10,10,12,22,16,24
+I/O DLL,24,40,40,48,56,64,64
+Maximum Single-Ended HP I/Os,208,416,416,520,572,650,676
+Maximum Differential HP I/O Pairs,96,192,192,240,264,288,312
+Maximum Single-Ended HR I/Os,104,104,104,104,104,52,156
+Maximum Differential HR I/O Pairs,48,48,48,48,56,24,72
+DSP Slices,1152,1700,1920,2760,4100,768,5520
+System Monitor,1,1,1,1,2,1,2
+PCIe Gen1/2/3,1,2,3,3,4,4,6
+Interlaken,0,0,0,0,0,2,0
+100G Etherne,0,0,0,0,0,2,0
+GTP Transceivers (6.6 Gb/s Max Rate),,,,,,,
+GTX Transceivers (12.5 Gb/s Max Rate),,,,,,,
+GTH Transceivers (13.1 Gb/s Max Rate),,,,,,,
+GTZ Transceivers ( 28.05 Gb/s Max Rate),,,,,,,
+16.3Gb/s Transceivers (GTH/GTY),12,16,20,32,56,64,64
+Commercial Temp (C),-1,-1,-1,-1,-1,-1,-1
+Extended Temp (E),-2,"-2, -3","-2, -3","-2, -3","-2, -3",-2,"-2, -3"
+Industrial Temp (I),"-1,-2","-1,-1L,-2","-1,-1L,-2","-1,-1L,-2","-1,-1L,-2","-1,-2","-1,-1L,-2"
