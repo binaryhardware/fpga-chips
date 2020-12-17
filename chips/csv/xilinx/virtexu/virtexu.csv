@@ -1,0 +1,25 @@
+Device Name,XCVU065,XCVU080,XCVU095,XCVU125,XCVU160,XCVU190,XCVU440
+System Logic Cells (k),783,975,1176,1567,2027,2350,5541
+CLB Flip-Flops,716160,891424,1075200,1432320,1852800,2148480,5065920
+CLB LUTs,358080,445712,537600,716160,926400,1074240,2532960
+Maximum Distributed RAM (Kb),4830,3980,4800,9660,12690,14490,28710
+Block RAM/FIFO w/ ECC (36 Kb each),1260,1421,1728,2520,3276,3780,2520
+Block RAM/FIFO (18Kb each),2520,2842,3456,5040,6552,7560,5040
+Total Block RAM (Mb),44.3,50,60.8,88.6,115.2,132.9,88.6
+ CMTs (1 MMCM + 2 PLL),10,16,16,20,28,30,30
+I/O DLL,40,64,64,80,120,120,120
+Transceiver Fractional PLL,5,8,8,10,13,15,0
+Maximum Single-Ended HP I/Os,468,780,780,780,650,650,1404
+Maximum Differential HP I/O Pairs,216,360,360,360,300,300,648
+Maximum Single-Ended HR I/Os,52,52,52,52,52,52,52
+Maximum Differential HR I/O Pairs,24,24,24,24,24,24,24
+DSP Slices,600,672,768,1200,1560,1800,2880
+System Monitor,1,1,1,2,3,3,3
+PCIe Gen1/2/3,2,4,4,4,4,6,6
+Interlaken,3,6,6,6,8,9,0
+100G Etherne,3,4,4,6,9,9,3
+GTH Transceivers (16.3 Gb/s Max Rate),20,32,32,40,52,60,48
+GTY Transceivers (30.5 Gb/s Max Rate),20,32,32,40,52,60,0
+Commercial Temp (C),-,-,-,-,-,-,-1
+Extended Temp (E),-1H -2 -3,-1H -2 -3,-1H -2 -3,-1H -2 -3,-1H -2 -3,-1H -2 -3,-2 -3
+Industrial Temp (I),-1 -2,-1 -2,-1 -2,-1 -2,-1 -2,-1 -2,-1 -2
