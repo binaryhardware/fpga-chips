@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<product company='Xilinx' series='7Series' >
+    <chipset familiy='kintex7' type='programmable_logic'>
+
+        <chip pnum='XC7K70T'>
+            <res_logic>
+                <slices>10250</slices>
+                <cells >65600</cells>
+                <clbff >82000</clbff>
+            </res_logic>
+            <res_mem>
+                <dist_mem unit='Kb' >838</dist_mem>
+                <bram unit='36Kb'   >135</bram>
+                <total_ram unit='Kb'>4860</total_ram>
+            </res_mem>
+            <res_clk>
+                <cmt type='1mmcm+1pll'>6</cmt>
+            </res_clk>
+            <res_io>
+                <io type='io_signle'>300</io>
+                <io type='io_diff_pair'>144</io>
+            </res_io>
+            <res_integrated>
+                <dsp type='DSP48A'>240</dsp>
+                <pcie type='Gen2'>1</pcie>
+                <pcie type='Gen3'>0</pcie>
+                <ams type='XADC'>1</ams>
+                <conf_hmac type='AES/HMAC'>1</conf_hmac>
+                <transiver type='gtx' rate='12.5_Gbps'>8</transiver>
+                <transiver type='gth' rate='13.1_Gbps'>0</transiver>
+                <transiver type='gtz' rate='28.5_Gbps'>0</transiver>
+                <speed>
+                    <coommerical>
+                        <grade>-1</grade>
+                        <grade>-2</grade>
+                   </coommerical>
+                   <extended>
+                        <grade>-2L</grade>
+                        <grade>-3</grade>
+                    </extended> 
+                    <industrial>
+                        <grade>-1</grade>
+                        <grade>-2</grade>
+                </industrial> 
+                </speed>
+            </res_integrated>
+        </chip>
+
+        <chip pnum='XC7K160T'>
+            <res_logic>
+                <slices>25350</slices>
+                <cells >162240</cells>
+                <clbff >202800</clbff>
+            </res_logic>
+            <res_mem>
+                <dist_mem unit='Kb' >2188</dist_mem>
+                <bram unit='36Kb'   >325</bram>
+                <total_ram unit='Kb'>11700</total_ram>
+            </res_mem>
+            <res_clk>
+                <cmt type='1mmcm+1pll'>8</cmt>
+            </res_clk>
+            <res_io>
+                <io type='io_signle'>400</io>
+                <io type='io_diff_pair'>192</io>
+            </res_io>
+            <res_integrated>
+                <dsp type='DSP48A'>600</dsp>
+                <pcie type='Gen2'>1</pcie>
+                <pcie type='Gen3'>0</pcie>
+                <ams type='XADC'>1</ams>
+                <conf_hmac type='AES/HMAC'>1</conf_hmac>
+                <transiver type='gtx' rate='12.5_Gbps'>8</transiver>
+                <transiver type='gth' rate='13.1_Gbps'>0</transiver>
+                <transiver type='gtz' rate='28.5_Gbps'>0</transiver>
+                <speed>
+                    <coommerical>
+                        <grade>-1</grade>
+                        <grade>-2</grade>
+                   </coommerical>
+                   <extended>
+                        <grade>-2L</grade>
+                        <grade>-3</grade>
+                    </extended> 
+                    <industrial>
+                        <grade>-1</grade>
+                        <grade>-2</grade>
+                        <grade>-2L</grade>
+                </industrial> 
+                </speed>
+            </res_integrated>
+        </chip>
+   
+        <chip pnum='XC7K325T'>
+            <res_logic>
+                <slices>50950</slices>
+                <cells >326080</cells>
+                <clbff >407600</clbff>
+            </res_logic>
+            <res_mem>
+                <dist_mem unit='Kb' >4000</dist_mem>
+                <bram unit='36Kb'   >445</bram>
+                <total_ram unit='Kb'>16020</total_ram>
+            </res_mem>
+            <res_clk>
+                <cmt type='1mmcm+1pll'>10</cmt>
+            </res_clk>
+            <res_io>
+                <io type='io_signle'>500</io>
+                <io type='io_diff_pair'>240</io>
+            </res_io>
+            <res_integrated>
+                <dsp type='DSP48A'>840</dsp>
+                <pcie type='Gen2'>1</pcie>
+                <pcie type='Gen3'>0</pcie>
+                <ams type='XADC'>1</ams>
+                <conf_hmac type='AES/HMAC'>1</conf_hmac>
+                <transiver type='gtx' rate='12.5_Gbps'>16</transiver>
+                <transiver type='gth' rate='13.1_Gbps'>0</transiver>
+                <transiver type='gtz' rate='28.5_Gbps'>0</transiver>
+                <speed>
+                    <coommerical>
+                        <grade>-1</grade>
+                        <grade>-2</grade>
+                   </coommerical>
+                   <extended>
+                        <grade>-2L</grade>
+                        <grade>-3</grade>
+                    </extended> 
+                    <industrial>
+                        <grade>-1</grade>
+                        <grade>-2</grade>
+                        <grade>-2L</grade>
+                </industrial> 
+                </speed>
+            </res_integrated>
+        </chip>
+
+        <chip pnum='XC7K355T'>
+            <res_logic>
+                <slices>55650</slices>
+                <cells >356160</cells>
+                <clbff >445200</clbff>
+            </res_logic>
+            <res_mem>
+                <dist_mem unit='Kb' >5088</dist_mem>
+                <bram unit='36Kb'   >715</bram>
+                <total_ram unit='Kb'>25740</total_ram>
+            </res_mem>
+            <res_clk>
+                <cmt type='1mmcm+1pll'>6</cmt>
+            </res_clk>
+            <res_io>
+                <io type='io_signle'>300</io>
+                <io type='io_diff_pair'>144</io>
+            </res_io>
+            <res_integrated>
+                <dsp type='DSP48A'>1440</dsp>
+                <pcie type='Gen2'>1</pcie>
+                <pcie type='Gen3'>0</pcie>
+                <ams type='XADC'>1</ams>
+                <conf_hmac type='AES/HMAC'>1</conf_hmac>
+                <transiver type='gtx' rate='12.5_Gbps'>24</transiver>
+                <transiver type='gth' rate='13.1_Gbps'>0</transiver>
+                <transiver type='gtz' rate='28.5_Gbps'>0</transiver>
+                <speed>
+                    <coommerical>
+                        <grade>-1</grade>
+                        <grade>-2</grade>
+                   </coommerical>
+                   <extended>
+                        <grade>-2L</grade>
+                        <grade>-3</grade>
+                    </extended> 
+                    <industrial>
+                        <grade>-1</grade>
+                        <grade>-2</grade>
+                        <grade>-2L</grade>
+                </industrial> 
+                </speed>
+            </res_integrated>
+        </chip>
+
+        <chip pnum='XC7K410T'>
+            <res_logic>
+                <slices>63550</slices>
+                <cells >406720</cells>
+                <clbff >508400</clbff>
+            </res_logic>
+            <res_mem>
+                <dist_mem unit='Kb' >5663</dist_mem>
+                <bram unit='36Kb'   >795</bram>
+                <total_ram unit='Kb'>28620</total_ram>
+            </res_mem>
+            <res_clk>
+                <cmt type='1mmcm+1pll'>10</cmt>
+            </res_clk>
+            <res_io>
+                <io type='io_signle'>500</io>
+                <io type='io_diff_pair'>240</io>
+            </res_io>
+            <res_integrated>
+                <dsp type='DSP48A'>1540</dsp>
+                <pcie type='Gen2'>1</pcie>
+                <pcie type='Gen3'>0</pcie>
+                <ams type='XADC'>1</ams>
+                <conf_hmac type='AES/HMAC'>1</conf_hmac>
+                <transiver type='gtx' rate='12.5_Gbps'>16</transiver>
+                <transiver type='gth' rate='13.1_Gbps'>0</transiver>
+                <transiver type='gtz' rate='28.5_Gbps'>0</transiver>
+                <speed>
+                    <coommerical>
+                        <grade>-1</grade>
+                        <grade>-2</grade>
+                   </coommerical>
+                   <extended>
+                        <grade>-2L</grade>
+                        <grade>-3</grade>
+                    </extended> 
+                    <industrial>
+                        <grade>-1</grade>
+                        <grade>-2</grade>
+                        <grade>-2L</grade>
+                </industrial> 
+                </speed>
+            </res_integrated>
+        </chip>
+        <chip pnum='XC7K420T'>
+            <res_logic>
+                <slices>65150</slices>
+                <cells >416960</cells>
+                <clbff >521200</clbff>
+            </res_logic>
+            <res_mem>
+                <dist_mem unit='Kb' >5938</dist_mem>
+                <bram unit='36Kb'   >835</bram>
+                <total_ram unit='Kb'>30060</total_ram>
+            </res_mem>
+            <res_clk>
+                <cmt type='1mmcm+1pll'>8</cmt>
+            </res_clk>
+            <res_io>
+                <io type='io_signle'>400</io>
+                <io type='io_diff_pair'>192</io>
+            </res_io>
+            <res_integrated>
+                <dsp type='DSP48A'>1680</dsp>
+                <pcie type='Gen2'>1</pcie>
+                <pcie type='Gen3'>0</pcie>
+                <ams type='XADC'>1</ams>
+                <conf_hmac type='AES/HMAC'>1</conf_hmac>
+                <transiver type='gtx' rate='12.5_Gbps'>32</transiver>
+                <transiver type='gth' rate='13.1_Gbps'>0</transiver>
+                <transiver type='gtz' rate='28.5_Gbps'>0</transiver>
+                <speed>
+                    <coommerical>
+                        <grade>-1</grade>
+                        <grade>-2</grade>
+                   </coommerical>
+                   <extended>
+                        <grade>-2L</grade>
+                        <grade>-3</grade>
+                    </extended> 
+                    <industrial>
+                        <grade>-1</grade>
+                        <grade>-2</grade>
+                        <grade>-2L</grade>
+                </industrial> 
+                </speed>
+            </res_integrated>
+        </chip>
+
+
+        <chip pnum='XC7K480T'>
+            <res_logic>
+                <slices>74650</slices>
+                <cells >477760</cells>
+                <clbff >597200</clbff>
+            </res_logic>
+            <res_mem>
+                <dist_mem unit='Kb' >6788</dist_mem>
+                <bram unit='36Kb'   >955</bram>
+                <total_ram unit='Kb'>34380</total_ram>
+            </res_mem>
+            <res_clk>
+                <cmt type='1mmcm+1pll'>8</cmt>
+            </res_clk>
+            <res_io>
+                <io type='io_signle'>400</io>
+                <io type='io_diff_pair'>192</io>
+            </res_io>
+            <res_integrated>
+                <dsp type='DSP48A'>1920</dsp>
+                <pcie type='Gen2'>1</pcie>
+                <pcie type='Gen3'>0</pcie>
+                <ams type='XADC'>1</ams>
+                <conf_hmac type='AES/HMAC'>1</conf_hmac>
+                <transiver type='gtx' rate='12.5_Gbps'>32</transiver>
+                <transiver type='gth' rate='13.1_Gbps'>0</transiver>
+                <transiver type='gtz' rate='28.5_Gbps'>0</transiver>
+                <speed>
+                    <coommerical>
+                        <grade>-1</grade>
+                        <grade>-2</grade>
+                   </coommerical>
+                   <extended>
+                        <grade>-2L</grade>
+                        <grade>-3</grade>
+                    </extended> 
+                    <industrial>
+                        <grade>-1</grade>
+                        <grade>-2</grade>
+                        <grade>-2L</grade>
+                </industrial> 
+                </speed>
+            </res_integrated>
+        </chip>
+
+    </chipset>
+</product>
