@@ -36,9 +36,9 @@
                 <transiver type='gtz' rate='28.5_Gbps'>0</transiver>
             </res_integrated>
             <speed_grade>
-                <speed temp='commercial'>{-1,-2}</speed>
-                <speed temp='extended'>{-1,-2,-1L}</speed>
-                <speed temp='industrial'>{-1}</speed>
+                <speed type='commercial' temp='C'>{-1,-2}</speed>
+                <speed type='industrial' temp='I'>{-1,-2,-1L}</speed>
+                <speed type='extended' temp='Q'>{-1}</speed>
             </speed_grade>
         </chip>
 
@@ -72,9 +72,9 @@
             </res_integrated>
 
             <speed_grade>
-                <speed temp='commercial'>{-1,-2}</speed>
-                <speed temp='extended'>{-1,-2,-1L}</speed>
-                <speed temp='industrial'>{-1}</speed>
+                <speed type='commercial' temp='C'>{-1,-2}</speed>
+                <speed type='industrial' temp='I'>{-1,-2,-1L}</speed>
+                <speed type='extended' temp='Q'>{-1}</speed>
             </speed_grade>
         </chip>
        
@@ -107,9 +107,9 @@
                 <transiver type='gtz' rate='28.5_Gbps'>0</transiver>
             </res_integrated>
             <speed_grade>
-                <speed temp='commercial'>{-1,-2}</speed>
-                <speed temp='extended'>{-1,-2,-1L}</speed>
-                <speed temp='industrial'>{-1}</speed>
+                <speed type='commercial' temp='C'>{-1,-2}</speed>
+                <speed type='industrial' temp='I'>{-1,-2,-1L}</speed>
+                <speed type='extended' temp='Q'>{-1}</speed>
             </speed_grade>
         </chip>
 
@@ -142,9 +142,9 @@
                 <transiver type='gtz' rate='28.5_Gbps'>0</transiver>
             </res_integrated>
             <speed_grade>
-                <speed temp='commercial'>{-1,-2}</speed>
-                <speed temp='extended'>{-1,-2,-1L}</speed>
-                <speed temp='industrial'>{-1}</speed>
+                <speed type='commercial' temp='C'>{-1,-2}</speed>
+                <speed type='industrial' temp='I'>{-1,-2,-1L}</speed>
+                <speed type='extended' temp='Q'>{-1}</speed>
             </speed_grade>
         </chip>
 
@@ -177,9 +177,9 @@
                 <transiver type='gtz' rate='28.5_Gbps'>0</transiver>
             </res_integrated>
             <speed_grade>
-                <speed temp='commercial'>{-1,-2}</speed>
-                <speed temp='extended'>{-1,-2,-1L}</speed>
-                <speed temp='industrial'>{-1}</speed>
+                <speed type='commercial' temp='C'>{-1,-2}</speed>
+                <speed type='industrial' temp='I'>{-1,-2,-1L}</speed>
+                <speed type='extended' temp='Q'>{-1}</speed>
             </speed_grade>
         </chip>
 
@@ -212,10 +212,11 @@
                 <transiver type='gtz' rate='28.5_Gbps'>0</transiver>
             </res_integrated>
             <speed_grade>
-                <speed temp='commercial'>{-1,-2}</speed>
-                <speed temp='extended'>{-1,-2,-1L}</speed>
-                <speed temp='industrial'>{-1}</speed>
+                <speed type='commercial' temp='C'>{-1,-2}</speed>
+                <speed type='industrial' temp='I'>{-1,-2,-1L}</speed>
+                <speed type='extended' temp='Q'>{-1}</speed>
             </speed_grade>
         </chip>
+        
     </chipset>
 </product>
