@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="product">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="chipset">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="chip" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="res_logic">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="slices" type="xs:string" />
+                                                    <xs:element name="cells" type="xs:string" />
+                                                    <xs:element name="clbff" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="res_mem">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dist_mem">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="unit" use="required" fixed="Kb" />
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="bram">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="unit" use="required" fixed="36Kb" />
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="total_ram">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="unit" use="required" fixed="Kb" />
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="res_clk">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="cmt">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="type" use="required" fixed="1mmcm+1pll" />
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="res_io">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="io" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="type" use="required">
+                                                                        <xs:simpleType>
+                                                                            <xs:restriction base="xs:string">
+                                                                                <xs:enumeration value="io_diff_pair" />
+                                                                                <xs:enumeration value="io_signle" />
+                                                                            </xs:restriction>
+                                                                        </xs:simpleType>
+                                                                    </xs:attribute>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="res_integrated">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dsp">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="type" use="required" >
+                                                                        <xs:simpleType>
+                                                                            <xs:restriction base="xs:string">
+                                                                                <xs:enumeration value="DSP48A1" />
+                                                                                <xs:enumeration value="DSP48E1" />
+                                                                                <xs:enumeration value="DSP48E2" />
+                                                                            </xs:restriction>
+                                                                        </xs:simpleType>   
+                                                                    </xs:attribute>
+                                                             </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="pcie" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="type" use="required">
+                                                                        <xs:simpleType>
+                                                                            <xs:restriction base="xs:string">
+                                                                                <xs:enumeration value="Gen2" />
+                                                                                <xs:enumeration value="Gen3" />
+                                                                            </xs:restriction>
+                                                                        </xs:simpleType>
+                                                                    </xs:attribute>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="ams">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="type" use="required" fixed="XADC" />
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="conf_hmac">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="type" use="required" fixed="AES/HMAC" />
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="transiver" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="type" use="required">
+                                                                        <xs:simpleType>
+                                                                            <xs:restriction base="xs:string">
+                                                                                <xs:enumeration value="gtp" />
+                                                                                <xs:enumeration value="gth" />
+                                                                                <xs:enumeration value="gtx" />
+                                                                                <xs:enumeration value="gtz" />
+                                                                            </xs:restriction>
+                                                                        </xs:simpleType>
+                                                                    </xs:attribute>
+                                                                    <xs:attribute name="rate" use="required">
+                                                                        <xs:simpleType>
+                                                                            <xs:restriction base="xs:string">
+                                                                                <xs:enumeration value="6.6_Gbps" />
+                                                                                <xs:enumeration value="12.5_Gbps" />
+                                                                                <xs:enumeration value="13.1_Gbps" />
+                                                                                <xs:enumeration value="28.5_Gbps" />
+                                                                            </xs:restriction>
+                                                                        </xs:simpleType>
+                                                                    </xs:attribute>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="speed_grade">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="speed" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="temp" use="required">
+                                                                        <xs:simpleType>
+                                                                            <xs:restriction base="xs:string">
+                                                                                <xs:enumeration value="commercial" />
+                                                                                <xs:enumeration value="extended" />
+                                                                                <xs:enumeration value="industrial" />
+                                                                            </xs:restriction>
+                                                                        </xs:simpleType>
+                                                                    </xs:attribute>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="pnum" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="familiy" use="required" />
+                        <xs:attribute name="type" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="vendor" use="required" />
+            <xs:attribute name="series" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
