@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<product 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="products.xsd" 
+    vendor="xilinx.com" 
+    series='7series'>
+    <chipset familiy='spartan7' type='programmable_logic'>
+
+        <chip pnum='XC7S6'>
+            <res_logic>
+                <slices>6000</slices>
+                <cells >938</cells>
+                <clbff >7500</clbff>
+            </res_logic>
+            <res_mem>
+                <dist_mem unit='Kb' >70</dist_mem>
+                <bram unit='36Kb'   >5</bram>
+                <total_ram unit='Kb'>180</total_ram>
+            </res_mem>
+            <res_clk>
+                <cmt type='1mmcm+1pll'>2</cmt>
+            </res_clk>
+            <res_io>
+                <io type='io_signle'>100</io>
+                <io type='io_diff_pair'>48</io>
+            </res_io>
+            <res_integrated>
+                <dsp type='DSP48E1'>10</dsp>
+                <pcie type='Gen2'>0</pcie>
+                <pcie type='Gen3'>0</pcie>
+                <ams type='XADC'>0</ams>
+                <conf_hmac type='AES/HMAC'>0</conf_hmac>
+                <transiver type='gtx' rate='12.5_Gbps'>0</transiver>
+                <transiver type='gth' rate='13.1_Gbps'>0</transiver>
+                <transiver type='gtz' rate='28.5_Gbps'>0</transiver>
+            </res_integrated>
+            <speed_grade>
+                <speed temp='commercial'>{-1,-2}</speed>
+                <speed temp='extended'>{-1,-2,-1L}</speed>
+                <speed temp='industrial'>{-1}</speed>
+            </speed_grade>
+        </chip>
+
+        <chip pnum='XC7S15'>
+            <res_logic>
+                <slices>12800</slices>
+                <cells >2000</cells>
+                <clbff >16000</clbff>
+            </res_logic>
+            <res_mem>
+                <dist_mem unit='Kb' >150</dist_mem>
+                <bram unit='36Kb'   >10</bram>
+                <total_ram unit='Kb'>360</total_ram>
+            </res_mem>
+            <res_clk>
+                <cmt type='1mmcm+1pll'>2</cmt>
+            </res_clk>
+            <res_io>
+                <io type='io_signle'>100</io>
+                <io type='io_diff_pair'>48</io>
+            </res_io>
+            <res_integrated>
+                <dsp type='DSP48E1'>20</dsp>
+                <pcie type='Gen2'>0</pcie>
+                <pcie type='Gen3'>0</pcie>
+                <ams type='XADC'>0</ams>
+                <conf_hmac type='AES/HMAC'>0</conf_hmac>
+                <transiver type='gtx' rate='12.5_Gbps'>0</transiver>
+                <transiver type='gth' rate='13.1_Gbps'>0</transiver>
+                <transiver type='gtz' rate='28.5_Gbps'>0</transiver>
+            </res_integrated>
+
+            <speed_grade>
+                <speed temp='commercial'>{-1,-2}</speed>
+                <speed temp='extended'>{-1,-2,-1L}</speed>
+                <speed temp='industrial'>{-1}</speed>
+            </speed_grade>
+        </chip>
+       
+        <chip pnum='XC7S25'>
+            <res_logic>
+                <slices>23360</slices>
+                <cells >3650</cells>
+                <clbff >29200</clbff>
+            </res_logic>
+            <res_mem>
+                <dist_mem unit='Kb' >313</dist_mem>
+                <bram unit='36Kb'   >45</bram>
+                <total_ram unit='Kb'>1620</total_ram>
+            </res_mem>
+            <res_clk>
+                <cmt type='1mmcm+1pll'>3</cmt>
+            </res_clk>
+            <res_io>
+                <io type='io_signle'>150</io>
+                <io type='io_diff_pair'>72</io>
+            </res_io>
+            <res_integrated>
+                <dsp type='DSP48E1'>80</dsp>
+                <pcie type='Gen2'>0</pcie>
+                <pcie type='Gen3'>0</pcie>
+                <ams type='XADC'>1</ams>
+                <conf_hmac type='AES/HMAC'>1</conf_hmac>
+                <transiver type='gtx' rate='12.5_Gbps'>0</transiver>
+                <transiver type='gth' rate='13.1_Gbps'>0</transiver>
+                <transiver type='gtz' rate='28.5_Gbps'>0</transiver>
+            </res_integrated>
+            <speed_grade>
+                <speed temp='commercial'>{-1,-2}</speed>
+                <speed temp='extended'>{-1,-2,-1L}</speed>
+                <speed temp='industrial'>{-1}</speed>
+            </speed_grade>
+        </chip>
+
+        <chip pnum='XC7S50'>
+            <res_logic>
+                <slices>52160</slices>
+                <cells >8150</cells>
+                <clbff >65200</clbff>
+            </res_logic>
+            <res_mem>
+                <dist_mem unit='Kb' >600</dist_mem>
+                <bram unit='36Kb'   >75</bram>
+                <total_ram unit='Kb'>2700</total_ram>
+            </res_mem>
+            <res_clk>
+                <cmt type='1mmcm+1pll'>5</cmt>
+            </res_clk>
+            <res_io>
+                <io type='io_signle'>250</io>
+                <io type='io_diff_pair'>120</io>
+            </res_io>
+            <res_integrated>
+                <dsp type='DSP48E1'>120</dsp>
+                <pcie type='Gen2'>0</pcie>
+                <pcie type='Gen3'>0</pcie>
+                <ams type='XADC'>1</ams>
+                <conf_hmac type='AES/HMAC'>1</conf_hmac>
+                <transiver type='gtx' rate='12.5_Gbps'>0</transiver>
+                <transiver type='gth' rate='13.1_Gbps'>0</transiver>
+                <transiver type='gtz' rate='28.5_Gbps'>0</transiver>
+            </res_integrated>
+            <speed_grade>
+                <speed temp='commercial'>{-1,-2}</speed>
+                <speed temp='extended'>{-1,-2,-1L}</speed>
+                <speed temp='industrial'>{-1}</speed>
+            </speed_grade>
+        </chip>
+
+        <chip pnum='XC7S75'>
+            <res_logic>
+                <slices>76800</slices>
+                <cells >12000</cells>
+                <clbff >96000</clbff>
+            </res_logic>
+            <res_mem>
+                <dist_mem unit='Kb' >832</dist_mem>
+                <bram unit='36Kb'   >90</bram>
+                <total_ram unit='Kb'>3240</total_ram>
+            </res_mem>
+            <res_clk>
+                <cmt type='1mmcm+1pll'>8</cmt>
+            </res_clk>
+            <res_io>
+                <io type='io_signle'>400</io>
+                <io type='io_diff_pair'>192</io>
+            </res_io>
+            <res_integrated>
+                <dsp type='DSP48E1'>140</dsp>
+                <pcie type='Gen2'>0</pcie>
+                <pcie type='Gen3'>0</pcie>
+                <ams type='XADC'>1</ams>
+                <conf_hmac type='AES/HMAC'>1</conf_hmac>
+                <transiver type='gtx' rate='12.5_Gbps'>0</transiver>
+                <transiver type='gth' rate='13.1_Gbps'>0</transiver>
+                <transiver type='gtz' rate='28.5_Gbps'>0</transiver>
+            </res_integrated>
+            <speed_grade>
+                <speed temp='commercial'>{-1,-2}</speed>
+                <speed temp='extended'>{-1,-2,-1L}</speed>
+                <speed temp='industrial'>{-1}</speed>
+            </speed_grade>
+        </chip>
+
+        <chip pnum='XC7S100'>
+            <res_logic>
+                <slices>102400</slices>
+                <cells >16000</cells>
+                <clbff >128000</clbff>
+            </res_logic>
+            <res_mem>
+                <dist_mem unit='Kb' >1100</dist_mem>
+                <bram unit='36Kb'   >120</bram>
+                <total_ram unit='Kb'>4320</total_ram>
+            </res_mem>
+            <res_clk>
+                <cmt type='1mmcm+1pll'>8</cmt>
+            </res_clk>
+            <res_io>
+                <io type='io_signle'>400</io>
+                <io type='io_diff_pair'>192</io>
+            </res_io>
+            <res_integrated>
+                <dsp type='DSP48E1'>160</dsp>
+                <pcie type='Gen2'>0</pcie>
+                <pcie type='Gen3'>0</pcie>
+                <ams type='XADC'>1</ams>
+                <conf_hmac type='AES/HMAC'>1</conf_hmac>
+                <transiver type='gtx' rate='12.5_Gbps'>0</transiver>
+                <transiver type='gth' rate='13.1_Gbps'>0</transiver>
+                <transiver type='gtz' rate='28.5_Gbps'>0</transiver>
+            </res_integrated>
+            <speed_grade>
+                <speed temp='commercial'>{-1,-2}</speed>
+                <speed temp='extended'>{-1,-2,-1L}</speed>
+                <speed temp='industrial'>{-1}</speed>
+            </speed_grade>
+        </chip>
+    </chipset>
+</product>
